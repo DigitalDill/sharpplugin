@@ -1,0 +1,22 @@
+name: ${project.name}
+version: ${project.version}
+main: us.howtosharp.sharpplugin.SharpPlugin
+authors: [SharpDev]
+website: https://howtosharp.us/
+depend:
+  - Vault
+
+
+commands:
+  punish:
+    usage: /punish
+    permission: sharpplugin.punish
+  delpunish:
+    usage: /delpunish
+    permission: sharpplugin.delpunish
+  addresource:
+    usage: /addresource
+    permission: sharpplugin.addresource
+  delresource:
+    usage: /delresource
+    permission: sharpplugin.delresource
